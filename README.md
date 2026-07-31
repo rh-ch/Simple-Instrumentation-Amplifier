@@ -29,14 +29,14 @@ The classic three op-amp INA topology consists of:
 Two sinusoidal inputs with a 10mV difference — output produces 1V, 
 confirming gain of 100.
 
-[screenshot here]
+![Instrumentation-Amp](images/ina.png)
 
 ### Common Mode Rejection
 Identical signals applied to both inputs — output reduces to picovolts, 
 demonstrating ~120dB CMRR. This confirms the amplifier's ability to reject 
 noise common to both inputs while amplifying only the differential signal.
 
-[screenshot here]
+![Instrumentation-Amp-CMRR](images/ina_cmrr.png)
 
 ## Key Takeaways
 
